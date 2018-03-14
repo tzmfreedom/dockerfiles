@@ -17,4 +17,5 @@ RUN ./configure optflags="-O0" debugflags="-g3"
 RUN make
 RUN make install
 
+RUN gem install bundler
 WORKDIR /root
